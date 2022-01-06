@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.color-red{
+    color: red;
+}
+
+section{
+    display: flex;
+    width: 80%;
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, powderblue);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+}
